@@ -1,0 +1,89 @@
+# 张启明  
+AI & Digital Transformation Executive  
+Email: zhang.qiming@example.com  
+Location: Singapore / Shanghai  
+
+---
+
+## 🧭 Profile
+
+拥有15年跨领域经验的AI与数字化转型领导者，职业路径从算法工程师起步，逐步转型为战略咨询顾问，最终担任集团CTO。
+
+在工业AI、企业数据平台、智能决策系统及组织数字化转型方面具备深厚经验。擅长将复杂技术能力转化为业务价值，推动从0到1的系统落地与规模化应用。
+
+具备从技术研发、产品设计到高层战略决策的全链路能力，曾多次直接向CEO及董事会汇报。
+
+---
+
+## 💼 Professional Experience
+
+### Group Chief Technology Officer (CTO)  
+Global Industrial Group  
+2021 – Present  
+
+- 负责集团整体数字化与AI战略，覆盖生产、供应链、研发与运营体系  
+- 搭建企业级数据中台与AI平台，实现跨系统数据打通与统一建模能力  
+- 主导工业AI项目落地（预测、优化、质量控制），年度节省成本超过5000万美元  
+- 建立AI治理体系，包括数据标准、模型评估机制与安全策略  
+- 管理超过50人技术团队，涵盖数据、算法、平台与工程  
+
+---
+
+### Senior Strategy Consultant (AI & Digital Transformation)  
+Top-tier Consulting Firm  
+2017 – 2021  
+
+- 为制造业、能源及医疗客户提供数字化转型与AI战略咨询  
+- 主导多个千万级项目，包括智能工厂、数据平台与AI应用规划  
+- 设计企业级数据架构（Data Lake / Data Warehouse / AI Layer）  
+- 协助客户建立内部AI团队与能力体系  
+- 深度参与C-level沟通与决策支持  
+
+---
+
+### Senior Algorithm Engineer  
+Tech Company (AI Lab)  
+2012 – 2017  
+
+- 从事机器学习与深度学习模型开发  
+- 负责预测模型、推荐系统与图像识别项目  
+- 使用技术包括：Python、TensorFlow、XGBoost、Scikit-learn  
+- 优化模型性能并推动算法在业务场景中的实际应用  
+- 多个项目成功上线并带来显著业务提升  
+
+---
+
+## 🧠 Core Skills
+
+- AI Strategy & Implementation  
+- Machine Learning / Deep Learning  
+- Data Platform Architecture  
+- Industrial AI / Optimization  
+- Digital Transformation  
+- Cross-functional Leadership  
+- Product Thinking & System Design  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python, SQL  
+- TensorFlow, PyTorch  
+- XGBoost, LightGBM  
+- Cloud Platforms (AWS / Azure)  
+- Data Systems (Spark, Hadoop, Data Lake)  
+
+---
+
+## 🎓 Education
+
+Master of Science in Computer Science  
+Top University  
+
+---
+
+## 🌍 Additional Information
+
+- 多次在行业会议分享AI与数字化转型实践  
+- 具备国际化工作经验（中国 / 新加坡 / 欧洲）  
+- 对AI在工业与医疗领域的应用具有长期研究兴趣  
