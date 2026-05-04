@@ -1,7 +1,8 @@
 # 张启明  
 AI & Digital Transformation Executive  
 Email: zhang.qiming@example.com  
-Location: Singapore / Shanghai  
+Location: Singapore / Shanghai
+电话：12345678901  
 
 ---
 

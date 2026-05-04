@@ -1,0 +1,47 @@
+# requirements.txt
+#
+# 这个文件用于记录本项目需要安装的 Python 工具包。
+#
+# 当别人第一次打开这个项目时，
+# 不需要一个一个手动安装依赖，
+# 只需要在终端运行：
+#
+# pip install -r requirements.txt
+#
+# 就可以把下面这些工具包一次性安装好。
+#
+# 本项目会用到：
+# - LLM API 调用
+# - Jupyter Notebook
+# - 表格分析
+# - 简单网页读取
+# - PDF / 文档读取
+# - Gradio 页面展示
+
+# ===== Core LLM API =====
+openai
+python-dotenv
+
+# ===== Notebook =====
+notebook
+ipykernel
+ipywidgets
+
+# ===== Data analysis =====
+pandas
+numpy
+matplotlib
+openpyxl
+
+# ===== Web reading / simple crawler =====
+requests
+beautifulsoup4
+
+# ===== PDF / document reading =====
+pypdf
+
+# ===== Gradio web app =====
+gradio
+
+# ===== Optional: nicer markdown/table display =====
+tabulate
