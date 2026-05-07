@@ -200,3 +200,226 @@ ai-agent-course/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
+
+建议把可复用的 `.py` 文件统一放进 `src/` 文件夹，而不是全部写在 Notebook 里。  
+这样项目结构更清楚，也更接近真实工程项目的组织方式。
+
+---
+
+## 环境准备
+
+建议使用 Python 3.10 或以上版本。
+
+安装依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+示例 `requirements.txt`：
+
+```txt
+openai
+python-dotenv
+pandas
+matplotlib
+requests
+beautifulsoup4
+scikit-learn
+numpy
+gradio
+
+# Notebook
+notebook
+ipykernel
+ipython
+ipywidgets
+```
+
+---
+
+## 环境变量配置
+
+请不要把真实 API Key 上传到 GitHub。
+
+在项目根目录创建 `.env` 文件：
+
+```env
+API_KEY=your_api_key_here
+BASE_URL=your_base_url_here
+MODEL_NAME=your_model_name_here
+```
+
+`.gitignore` 中应包含：
+
+```gitignore
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+```
+
+---
+
+## 运行方式
+
+### 1. 运行 Notebook
+
+从 Day 1 开始，按顺序打开：
+
+```text
+lab1.ipynb
+lab2.ipynb
+lab3.ipynb
+lab4.ipynb
+lab5.ipynb
+```
+
+每个 Notebook 建议按照以下结构学习：
+
+1. Definition：今天的核心概念
+2. Why it matters：这个概念为什么重要
+3. Build：今天给系统增加什么能力
+4. Test：用固定问题测试
+5. What this block does：每段代码在做什么
+6. Further Reading：扩展阅读
+
+这种结构是为了让学习者不仅能跑代码，也能理解每个模块在系统中的作用。
+
+---
+
+### 2. 运行最终 Web App Demo
+
+如果已经完成前面模块，可以运行：
+
+```bash
+python app.py
+```
+
+启动后，根据终端提示打开本地链接，即可访问职业数字人 Web App Demo。
+
+---
+
+## 核心概念
+
+### LLM
+
+大语言模型，是职业数字人的“大脑”。
+
+### Prompt
+
+告诉模型应该如何理解任务、以什么角色回答、输出什么格式。
+
+### Workflow
+
+预先设计好的任务流程。  
+例如：先判断任务类型，再进入不同处理路径。
+
+### Routing
+
+路由分流。  
+让 AI 先判断用户输入属于哪类任务，再决定下一步怎么处理。
+
+### Tool
+
+让 AI 具备外部能力的函数或接口。  
+例如：读取表格、分析数据、读取网页、发送消息。
+
+### Context
+
+模型这一次能看到的全部信息。  
+包括当前问题、对话历史、长期记忆和检索出来的资料。
+
+### RAG
+
+先从资料中找出相关内容，再基于这些内容回答问题。
+
+### Guardrail
+
+让 AI 在合适范围内工作的边界机制。
+
+### Fallback
+
+当资料不足、工具失败、问题不清楚或结果不确定时，给出安全、诚实、可继续推进的回答。
+
+### Handoff
+
+当 AI 不适合继续处理时，把任务整理清楚，交给人或后续负责人处理。
+
+---
+
+## 教学理念
+
+这个项目不逐行讲代码。
+
+原因不是代码不重要，而是对于 AI 应用入门者来说，更重要的是先建立工程理解力。
+
+学习者需要掌握三层能力：
+
+1. 看懂模块  
+   知道这段代码是在接模型、做路由、调工具、读资料，还是做界面。
+
+2. 会改参数和提示词  
+   比如换模型、改 system prompt、改角色设定、改工具逻辑。
+
+3. 会让 AI 帮你改错  
+   把报错信息发给 AI，让 AI 帮助定位问题和修改代码。
+
+这门课不是带你背代码。  
+它是带你学会，怎么和 AI 一起做系统。
+
+---
+
+## 当前版本
+
+当前项目处于课程开发与教学演示阶段。
+
+已覆盖：
+
+- LLM API 调用
+- 职业数字人 v0
+- Routing 系统
+- 工具调用
+- 表格分析工具
+- 网页读取工具
+- 消息推送工具
+- Context 结构
+- 最小 RAG
+- Guardrail 理论与最小实操
+- Fallback / Handoff 理论介绍
+- Gradio Demo 设计
+
+---
+
+## 后续计划
+
+后续可以继续扩展：
+
+- 更完整的 fallback 机制
+- 更完整的 handoff 交接摘要
+- 更稳定的 RAG 知识库
+- 更复杂的工具调用
+- 企业内部权限控制
+- 日志与可观测性
+- 多智能体协作
+- LangGraph
+- CrewAI
+- OpenAI Agents SDK
+- MCP 工具协议
+- 更完整的部署方案
+
+---
+
+## 免责声明
+
+本项目主要用于 AI 应用开发教学和原型演示。
+
+请不要在未经过充分测试、权限审核和安全评估的情况下，将其直接用于生产环境或处理敏感业务数据。
+
+---
+
+## License
+
+本项目仅用于学习、教学和内部演示。  
+如需商业使用或二次开发，请根据实际情况补充正式授权说明。
